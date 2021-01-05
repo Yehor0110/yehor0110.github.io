@@ -16,14 +16,15 @@
 			</a>
 			<nav class="navigation">
 				<ul class="menu">
-					<li><a href="#" class="active">Progect name</a></li>
-					<li><a href="#">Description</a></li>
-					<li><a href="#">Workspace</a></li>
+					<li><a href="#progect-name" class="active">Progect name</a></li>
+					<li><a href="#description">Description</a></li>
+                    <li><a href="#workspace">Workspace</a></li>
+                    <li><a href="#main-footer">Footer</a></li>
 				</ul>
 			</nav>
         </header>
 
-        <section class="about">
+        <section class="about" id="progect-name">
 			<div class="about-bgd">
 				<div class="about-overlay">
                     <h1>React Internship</h1>
@@ -35,7 +36,7 @@
 			</div>	
         </section>
 
-        <section class="description">
+        <section id="description">
 			<div class="description-bgd">
 				<div class="description-overlay">
                     <div class="image">
@@ -62,138 +63,110 @@
 			</div>	
         </section>
 
-
-
-        <section class="workspace">
+        <section id="workspace">
             <h2>An example of table layout</h2>
-                <h4>один из примеров табличной вёрстки</h4>
-                <form action="" id="basket">
-                    <div class="wrapper_table">
-                        <table>
-                              <thead>
-                                  <tr class="table_header">
-                                    <th class="delete"></th>
-                                    <th class="product">Product</th>
-                                    <th class="name_book"></th>
-                                    <th class="format">Format</th> 
-                                    <th class="language">Language</th>
-                                    <th class="quantily">Quantily</th>
-                                    <th class="price">Price</th>
-                                  </tr>
-                              </thead>
-                              <tbody>
-                                  <tr>
-                                    <td class="delete"><a href="#"><img src="img/icons/delate_product.png" alt="delete"></a></td>
-                                    <td class="product"><img src="img/book2.png" alt="book" width="60px" height="93px" data-price="25"></td>
-                                    <td class="name_book">
-                                        <a href="#">The Meandering Corpse</a>
-                                        <p class="name_author">Richard S. Prather</p>
-                                    </td>
-                                    <td class="format">Hardback, 170x 215 mm</td>
-                                    <td class="language">English</td>
-                                    <td class="quantily">
-                                        <div class="goods" unselectable="on">
-                                            <div class="goods-count">
-                                                <span class="amount">
-                                                    <span class="down">-</span>
-                                                    <input type="text" class="counter" value="1" data-price="25" data-count="1"/>
-                                                    <span class="up">+</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="price">
-                                        <div class="goods-price">$<span class="sum">25</span></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="delete"><a href="#"><img src="img/icons/delate_product.png" alt="delete"></a></td>
-                                    <td class="product"><img src="img/book3.png" alt="book" width="60px" height="93px" data-price="30"></td>
-                                    <td class="name_book">
-                                        <a href="#">English Detective Stories</a>
-                                        <p class="name_author">Patricia Craig</p>
-                                    </td>
-                                    <td class="format">Hardback, 170x 215 mm</td>
-                                    <td class="language">English</td>
-                                    <td class="quantily">
-                                        <div class="goods2" unselectable="on">
-                                            <div class="goods-count">
-                                                <span class="amount">
-                                                    <span class="down">-</span>
-                                                    <input type="text" class="counter2" value="1" data-price="30" data-count="1"/>
-                                                    <span class="up">+</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="price">
-                                        <div class="goods-price">$<span class="sum2">30</span></div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td class="delete"><a href="#"><img src="img/icons/delate_product.png" alt="delete"></a></td>
-                                    <td class="product"><img src="img/book4.png" alt="book" width="60px" height="93px" data-price="8"></td>
-                                    <td class="name_book">
-                                        <a href="#">Die Like a Dog</a>
-                                        <p class="name_author">Brett Halliday</p>
-                                    </td>
-                                    <td class="format">Hardback, 170x 215 mm</td>
-                                    <td class="language">English</td>
-                                    <td class="quantily">
-                                        <div class="goods3" unselectable="on">
-                                            <div class="goods-count">
-                                                <span class="amount">
-                                                    <span class="down">-</span>
-                                                    <input type="text" class="counter3" value="1" data-price="8" data-count="1"/>
-                                                    <span class="up">+</span>
-                                                </span>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="price">
-                                        <div class="goods-price">$<span class="sum3">8</span></div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div> <!-- wrapper_table -->
-                </form>
+            <h4>один из примеров табличной вёрстки</h4>
             
-                <!-- <div class="wrap_buttom_form">
-                    <div class="coupon_code">
-                     <form action="" class="coupon_form">
-                         <input type="text" id="coupon" name="coupon" placeholder="Coupon code">
-                         <button class="coupon_button" type="submit">Apply <img src="images/rectangle45.png" alt="subscribe"></button>
-                     </form>
-                     <p>Type your coupone code (if you have), and take 20% discount for your order.</p> 
-                  </div>
-                  <div class="wrap_total_cost">
-                     <div class="wrap_table_total">
-                        <table>
-                           <tr>
-                              <td class="subtotal_block">Subtotal</td>
-                              <td class="subtotal_cost"><span>$</span><span id="subtotal">0</span></td>
-                           </tr>
-                           <tr>
-                              <td class="total_block">Total</td>
-                              <td class="total_cost"><span>$</span><span id="total">0</span></td>
-                           </tr>
-                        </table>
-                     </div>
-                     <div class="checkout_bottom_wrap">
-                        <input type="submit" form="basket" class="checkout_bottom" value="Checkout">
-                     </div>
-                   </div>
-               </div> -->
+            <form action="#" id="basket">
+                <div class="wrapper_table">
+                    <table>
+                        <thead>
+                            <tr class="table_header">
+                            <th class="delete"></th>
+                            <th class="product">Product</th>
+                            <th class="name_book"></th>
+                            <th class="format">Format</th> 
+                            <th class="language">Language</th>
+                            <th class="quantily">Quantily</th>
+                            <th class="price">Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="delete"><a href="#"><img src="img/icons/delate_product.png" alt="delete"></a></td>
+                                <td class="product"><img src="img/book2.png" alt="book" width="60px" height="93px" data-price="25"></td>
+                                <td class="name_book">
+                                    <a href="#">The Meandering Corpse</a>
+                                    <p class="name_author">Richard S. Prather</p>
+                                </td>
+                                <td class="format">Hardback, 170x 215 mm</td>
+                                <td class="language">English</td>
+                                <td class="quantily">
+                                    <div class="goods" unselectable="on">
+                                        <div class="goods-count">
+                                            <span class="amount">
+                                                <span class="down">-</span>
+                                                <input type="text" class="counter" value="1" data-price="25" data-count="1"/>
+                                                <span class="up">+</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="price">
+                                    <div class="goods-price">$<span class="sum">25</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="delete"><a href="#"><img src="img/icons/delate_product.png" alt="delete"></a></td>
+                                <td class="product"><img src="img/book3.png" alt="book" width="60px" height="93px" data-price="30"></td>
+                                <td class="name_book">
+                                    <a href="#">English Detective Stories</a>
+                                    <p class="name_author">Patricia Craig</p>
+                                </td>
+                                <td class="format">Hardback, 170x 215 mm</td>
+                                <td class="language">English</td>
+                                <td class="quantily">
+                                    <div class="goods2" unselectable="on">
+                                        <div class="goods-count">
+                                            <span class="amount">
+                                                <span class="down">-</span>
+                                                <input type="text" class="counter2" value="1" data-price="30" data-count="1"/>
+                                                <span class="up">+</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="price">
+                                    <div class="goods-price">$<span class="sum2">30</span></div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="delete"><a href="#"><img src="img/icons/delate_product.png" alt="delete"></a></td>
+                                <td class="product"><img src="img/book4.png" alt="book" width="60px" height="93px" data-price="8"></td>
+                                <td class="name_book">
+                                    <a href="#">Die Like a Dog</a>
+                                    <p class="name_author">Brett Halliday</p>
+                                </td>
+                                <td class="format">Hardback, 170x 215 mm</td>
+                                <td class="language">English</td>
+                                <td class="quantily">
+                                    <div class="goods3" unselectable="on">
+                                        <div class="goods-count">
+                                            <span class="amount">
+                                                <span class="down">-</span>
+                                                <input type="text" class="counter3" value="1" data-price="8" data-count="1"/>
+                                                <span class="up">+</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="price">
+                                    <div class="goods-price">$<span class="sum3">8</span></div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> <!-- wrapper_table -->
+            </form>
+
         </section>
 
-        
-
-        <footer class="main">
+        <footer id="main-footer">
 			<div class="footer-bgd">
 				<div class="footer-overlay">
+
                     <div class="phone">
-                        <a href="tel:+380503555377">
+                        <a href="tel:+380662780005">
                             <p>Yehor Valentiukevych</p>
                             <img src="img/icons/phoneIcon.svg" alt="phone">
                             <p>+38 (066) 278-00-05</p>
