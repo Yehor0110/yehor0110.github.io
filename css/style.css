@@ -26,6 +26,7 @@ img {
     clear: both;
 }
   
+/* style main header */
 header.main {
     box-sizing: border-box;
     width: 100%;
@@ -49,8 +50,8 @@ header.main .navigation {
 
 header.main .navigation .menu {
     min-height: 13px;
-    max-width: 720px;
-    margin: 75px auto 36px auto;
+    max-width: 380px;
+    margin: 33px auto 36px auto;
     padding: 0;
 }
 
@@ -58,6 +59,11 @@ header.main .navigation .menu li {
     position: relative;
     float: left;
     margin-right: 25px;
+    list-style-type: none;
+}
+
+header.main .navigation .menu li:nth-child(3) {
+    margin-right: 0;
 }
 
 header.main .navigation .menu li a {
@@ -77,4 +83,128 @@ header.main .navigation .menu li a:hover {
 
 header.main .navigation .menu li a.active {
     color: #fdbf22;
+}
+
+
+/* about block */
+section.about {
+    background-image: url(../img/main-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    width: 100%;
+}
+
+.about {
+    position: relative;
+}
+
+.about .about-bgd {
+    width: 100%;
+    min-height: 700px;
+    background-repeat: no-repeat;
+}
+
+.about .about-bgd .about-overlay {
+    width: 100%;
+    min-height: 700px;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(9, 5, 47, 0.85), rgba(44, 26, 88, 0.85));
+    background: -o-linear-gradient(left, rgba(9, 5, 47, 0.85), rgba(44, 26, 88, 0.85));
+    background: linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(44, 26, 88, 0.85));
+}
+
+.about .about-bgd .about-overlay h1 {
+    text-align: center;
+    line-height: 45px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    padding-top: 228px;
+}
+
+.about .about-bgd .about-overlay h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #fdbf22;
+    margin: 30px auto;
+}
+
+.about .about-bgd .about-overlay p {
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    text-transform: lowercase;
+    color: white;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.7px;
+    max-width: 780px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about .about-bgd .about-overlay .button-about {
+    text-decoration: none;
+    max-width: 160px;
+    display: block;
+    margin: 33px auto;
+    padding: 17px;
+    border: 1px solid #fdbf22;
+    color: #fdbf22;
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+.about .about-bgd .about-overlay .button-about:active, 
+.about .about-bgd .about-overlay .button-about:hover {
+    color: #46A3CC;
+    border: 1px solid #46A3CC;
+}
+
+
+/* description block */
+section.description {
+    margin: 80px 0;
+    padding: 0 150px;
+}
+
+section.description .image {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    
+}
+
+section.description .content {
+    display:inline-block;
+    width: 58%;
+    vertical-align: top;
+    padding: 0 50px;
+    color: #555963;
+}
+
+section.description .content h2 {
+    text-align: left;
+    line-height: 40px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 28px;
+    letter-spacing: 0.32px;
+    color: #555963;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+section.description .content p {
+    padding-bottom: 25px;
 }
