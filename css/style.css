@@ -412,7 +412,6 @@ span.amount {
 .goods-price, .sum {
     font-size: 25px;
     font-family: Roboto, sans-serif;
-    font-style: medium;
 }
   
 .quantily input.counter,
