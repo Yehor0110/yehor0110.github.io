@@ -208,3 +208,220 @@ section.description .content h2 {
 section.description .content p {
     padding-bottom: 25px;
 }
+
+section.workspace {
+    display: block;
+    padding: 0 100px;
+    margin: 100px auto;
+}
+
+section.workspace h2 {
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 28px;
+    letter-spacing: 0.32px;
+    color: #555963;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+section.workspace h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #fdbf22;
+    margin: 30px auto;
+}
+
+section.workspace h4 {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.32px;
+    color: #555963;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
+
+.wrapper_table {
+    width: 100%;
+    box-sizing: border-box;
+}
+  
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    padding-top: 200px;
+}
+  
+th {
+    padding: 8px 5px;
+    color: #555963;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    font-weight: normal;
+    background: white;
+}
+  
+tbody tr {
+    border-bottom: 20px solid white;
+    background-color: #F5FDFF;
+}
+  
+table tr:hover {
+    background-color: #DDF9FF;
+}
+  
+.table_header {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #555963;
+    border-bottom: 20px solid transparent;
+}
+  
+.table_header .quantily {
+    text-align: center;
+}
+  
+td {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 32px;
+    color: #555963;
+}
+  
+td a {
+    text-decoration: none;
+}
+  
+.delete {
+    width: 4.1%;
+}
+  
+.delete img {
+    display: block;
+    min-width: 13px;
+    margin: 0 auto;
+}
+  
+.product {
+    padding: 0;
+    width: 60px;
+    padding-left: 5px;
+}
+  
+.product img {
+    padding: 25px 0 24px 0;
+}
+  
+.name_book {
+    padding-left: 19px;
+    min-width: 145px;
+    width: 30%;
+    padding-right: 10px;
+    vertical-align: top;
+    text-align: left;
+}
+  
+.name_book a {
+    text-decoration: none;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    line-height: 21px;
+    color: #45474b;
+    position: relative;
+    top: 25px;
+}
+  
+.name_book a:hover {
+    color: rgba(255, 187, 88, 0.9);
+}
+  
+td p.name_author {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    line-height: 23px;
+    color: #dd9327;
+    position: relative;
+    top: 25px;
+  }
+  
+.format {
+    width: 25%;
+    padding: 0 10px;
+    text-align: left;
+}
+  
+.language {
+    padding: 0 10px;
+    width: 15%;
+    text-align: left;
+}
+  
+.quantily {
+    width: 15%;
+    min-width: 83px;
+}
+  
+.goods-count {
+    text-align: center;
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+  
+span.amount {
+    cursor: pointer;
+    padding: 10px;
+    width: 16px;
+}
+  
+.down {
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+}
+  
+.up {
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+}
+  
+.price {
+    text-align: right;
+    padding-right: 27px;
+    width: 10%;
+}
+  
+.goods-price, .sum {
+    font-size: 25px;
+    font-family: Roboto, sans-serif;
+    font-style: medium;
+}
+  
+.quantily input.counter,
+.quantily input.counter2,
+.quantily input.counter3 {
+    border: none;
+    background-color: transparent;
+    width: 30px;
+    text-align: center;
+    font-family: Yrsa, serif;
+    font-size: 25px;
+    color: #555963;
+}
