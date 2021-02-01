@@ -8,14 +8,14 @@ const HeaderComponent = () => {
 			<a href="index.html" id="logo">
 				<img src="img/logo.svg" alt="logotype"/>
 			</a>
-			<nav className="navigation">
-				<ul className="menu">
-					<li><a href="#progect-name" className="active">Progect name</a></li>
-					<li><a href="#description">Description</a></li>
+      <nav className="navigation">
+        <ul className="menu">
+          <li><a href="#progect-name" className="active">Progect name</a></li>
+          <li><a href="#description">Description</a></li>
           <li><a href="#workspace">Workspace</a></li>
           <li><a href="#main-footer">Footer</a></li>
-				</ul>
-			</nav>
+        </ul>
+      </nav>
     </header>
   );
 }
@@ -171,25 +171,6 @@ function App() {
       <AboutSection/>
       <DescriptionSection/>
       <MainFooter/>
-
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          I'm Ok!!!
-        </p>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-
     </div>
   );
 }
