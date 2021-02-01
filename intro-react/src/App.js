@@ -170,6 +170,7 @@ function App() {
       <HeaderComponent/>
       <AboutSection/>
       <DescriptionSection/>
+      <WorkSpaceSection/>
       <MainFooter/>
     </div>
   );
