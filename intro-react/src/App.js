@@ -5,9 +5,9 @@ import './App.css';
 const HeaderComponent = () => {
   return (
     <header className="Main">
-			<a href="index.html" id="logo">
-				<img src="img/logo.svg" alt="logotype"/>
-			</a>
+      <a href="index.html" id="logo">
+        <img src="img/logo.svg" alt="logotype"/>
+      </a>
       <nav className="Navigation">
         <ul className="Menu">
           <li><a href="#progect-name" className="Active">Progect name</a></li>
