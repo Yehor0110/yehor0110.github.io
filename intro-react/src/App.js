@@ -89,7 +89,7 @@ class WorkSpaceSection extends React.Component {
         <h4>Aperiam totam neque esse enim</h4>
         <div className="Services-block">
           <div className="Service">
-            <a href="#">
+            <a href="index.html">
               <img src={icon1} alt="web design"/>
               <h3>Lorem ipsum dolor sit amet consectetur</h3>
               <p>
@@ -98,7 +98,7 @@ class WorkSpaceSection extends React.Component {
             </a>		
           </div>
           <div className="Service">
-              <a href="#">
+              <a href="index.html">
                   <img src={icon2} alt="BRANDING IDENTITY"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
@@ -107,7 +107,7 @@ class WorkSpaceSection extends React.Component {
               </a>		
           </div>
           <div className="Service">
-              <a href="#">
+              <a href="index.html">
                   <img src={icon3} alt="MOBILE APP"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
@@ -116,7 +116,7 @@ class WorkSpaceSection extends React.Component {
               </a>	
           </div>
           <div className="Service">
-              <a href="#">
+              <a href="index.html">
                   <img src={icon4} alt="SEARCH ENGINE OPTIMIZATION"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
@@ -125,7 +125,7 @@ class WorkSpaceSection extends React.Component {
               </a>	
           </div>
           <div className="Service">
-              <a href="#">
+              <a href="index.html">
                   <img src={icon5} alt="GAME DEVELOPMENT"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
@@ -134,7 +134,7 @@ class WorkSpaceSection extends React.Component {
               </a>	
           </div>
           <div className="Service">
-              <a href="#">
+              <a href="index.html">
                   <img src={icon6} alt="MADE WITH LOVE"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
