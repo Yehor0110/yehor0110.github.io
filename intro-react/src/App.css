@@ -88,7 +88,7 @@ header.Main .Navigation .Menu li a.Active {
 
 /* about block */
 section.About {
-  background-image: url(../src/img/main-img.png);
+  background-image: url(./img/main-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -335,7 +335,7 @@ section.About {
 #main-footer .Footer-bgd {
   width: 100%;
   min-height: 400px;
-  background-image: url(../src/img/footerBgd.png);
+  background-image: url(./img/footerBgd.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -352,7 +352,7 @@ section.About {
 }
 
 #main-footer .Author {
-  display: inline-block;
+  /* display: inline-block; */
   float: right;
   margin-top: 135px;
   min-width: 300px;

@@ -1,12 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './img/logo.svg';
+import ourStoryLogo from './img/ourStoryLogo.png';
+import icon1 from './img/icons/1.png';
+import icon2 from './img/icons/2.png';
+import icon3 from './img/icons/3.png';
+import icon4 from './img/icons/4.png';
+import icon5 from './img/icons/5.png';
+import icon6 from './img/icons/6.png';
+import iconGithub from './img/icons/github.png';
+import iconDesign from './img/icons/design.png';
+
+
 import './App.css';
 
 const HeaderComponent = () => {
   return (
     <header className="Main">
       <a href="index.html" id="logo">
-        <img src="img/logo.svg" alt="logotype"/>
+        <img src={logo} alt="logotype"/>
       </a>
       <nav className="Navigation">
         <ul className="Menu">
@@ -45,7 +56,7 @@ class DescriptionSection extends React.Component {
         <div className="Description-bgd">
           <div className="Description-overlay">
             <div className="Image">
-                <img src="img/ourStoryLogo.png" alt="logotype"/>
+                <img src={ourStoryLogo} alt="logotype"/>
             </div>
             <div className="Content">
               <h2>Lorem ipsum dolor sit</h2>
@@ -78,8 +89,8 @@ class WorkSpaceSection extends React.Component {
         <h4>Aperiam totam neque esse enim</h4>
         <div className="Services-block">
           <div className="Service">
-            <a href="servises.html#box8-1">
-              <img src="img/icons/1.png" alt="web design"/>
+            <a href="#">
+              <img src={icon1} alt="web design"/>
               <h3>Lorem ipsum dolor sit amet consectetur</h3>
               <p>
                 Fugiat doloremque, commodi quis voluptates harum
@@ -87,8 +98,8 @@ class WorkSpaceSection extends React.Component {
             </a>		
           </div>
           <div className="Service">
-              <a href="servises.html#box1-1">
-                  <img src="img/icons/2.png" alt="BRANDING IDENTITY"/>
+              <a href="#">
+                  <img src={icon2} alt="BRANDING IDENTITY"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
                       Fugiat doloremque, commodi quis voluptates harum
@@ -96,8 +107,8 @@ class WorkSpaceSection extends React.Component {
               </a>		
           </div>
           <div className="Service">
-              <a href="servises.html#box2-1">
-                  <img src="img/icons/3.png" alt="MOBILE APP"/>
+              <a href="#">
+                  <img src={icon3} alt="MOBILE APP"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
                       Fugiat doloremque, commodi quis voluptates harum
@@ -105,8 +116,8 @@ class WorkSpaceSection extends React.Component {
               </a>	
           </div>
           <div className="Service">
-              <a href="servises.html#box10-1">
-                  <img src="img/icons/4.png" alt="SEARCH ENGINE OPTIMIZATION"/>
+              <a href="#">
+                  <img src={icon4} alt="SEARCH ENGINE OPTIMIZATION"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
                       Fugiat doloremque, commodi quis voluptates harum
@@ -114,8 +125,8 @@ class WorkSpaceSection extends React.Component {
               </a>	
           </div>
           <div className="Service">
-              <a href="servises.html#box7-1">
-                  <img src="img/icons/5.png" alt="GAME DEVELOPMENT"/>
+              <a href="#">
+                  <img src={icon5} alt="GAME DEVELOPMENT"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
                       Fugiat doloremque, commodi quis voluptates harum
@@ -123,8 +134,8 @@ class WorkSpaceSection extends React.Component {
               </a>	
           </div>
           <div className="Service">
-              <a href="servises.html#box9-1">
-                  <img src="img/icons/6.png" alt="MADE WITH LOVE"/>
+              <a href="#">
+                  <img src={icon6} alt="MADE WITH LOVE"/>
                   <h3>Lorem ipsum dolor sit amet consectetur</h3>
                   <p>
                       Fugiat doloremque, commodi quis voluptates harum
@@ -146,11 +157,11 @@ const MainFooter = () => {
           <div className="Author">
               <h3>Yehor Valentiukevych</h3>
               <div className="Wrap-links">
-                  <a href="https://github.com/Yehor0110/yehor0110.github.io" className="Git-link" target="_blank" title="GitHub">
-                      <img src="img/icons/github.png" alt="GitHub"/>
+                  <a href="https://github.com/Yehor0110/yehor0110.github.io" className="Git-link" target="_blank" rel="noreferrer" title="GitHub">
+                      <img src={iconGithub} alt="GitHub"/>
                   </a>
-                  <a href="http://psd-html-css.ru/sites/default/files/public/old/demo/tajem-rev.png" title="Origin Design" target="_blank" className="Design-link">
-                      <img src="img/icons/design.png" alt="Origin Design"/>
+                  <a href="http://psd-html-css.ru/sites/default/files/public/old/demo/tajem-rev.png" title="Origin Design" target="_blank" rel="noreferrer" className="Design-link">
+                      <img src={iconDesign} alt="Origin Design"/>
                   </a>
               </div>
                   
