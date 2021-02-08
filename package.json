@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "compass": "^0.1.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-concat": "^2.6.1",
