@@ -1,0 +1,32 @@
+#description {
+  margin: 80px 0;
+  padding: 0 150px;
+  .Image {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    
+  }
+  .Content {
+    display:inline-block;
+    width: 58%;
+    vertical-align: top;
+    padding: 0 50px;
+    color: #555963;
+    h2 {
+      text-align: left;
+      line-height: 40px;
+      text-transform: uppercase;
+      position: relative;
+      font-size: 28px;
+      letter-spacing: 0.32px;
+      color: #555963;
+      font-family: Roboto, sans-serif;
+      font-weight: 600;
+      margin-bottom: 50px;
+    }
+    p {
+      padding-bottom: 25px;
+    } 
+  }
+}

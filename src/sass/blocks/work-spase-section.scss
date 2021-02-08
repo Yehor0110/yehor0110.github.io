@@ -1,0 +1,102 @@
+#workspace {
+  display: block;
+  padding: 0 100px;
+  margin: 100px auto;
+  h2 {
+    text-align: center;
+    line-height: 40px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 28px;
+    letter-spacing: 0.32px;
+    color: #555963;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    &::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 2px;
+      background: #fdbf22;
+      margin: 30px auto;
+    }
+  }
+  h4 {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 20px;
+    letter-spacing: 0.32px;
+    color: #555963;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    margin-bottom: 100px;
+  }
+  .Services-block {
+    max-width: 1025px;
+    margin: 0 auto;
+    margin-bottom: 68px;
+    a {
+      text-decoration: none;
+    }
+    .Service {
+      float: left;
+      width: calc(100% / 3);
+      max-width: 342px;
+      min-height: 390px;
+      border: 1px solid #EFEFEF;
+      border-top: none;
+      &:hover, &:active {
+        background-color: rgba(253, 191, 34, 0.25);
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        margin-top: 39px;
+        margin-bottom: 34px;
+        text-align: center;
+        min-height: 50px;
+      }
+      h3 {
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 900;
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 0.7px;
+        line-height: 22px;
+        color: #413d4b;
+        margin-bottom: 25px;
+        padding: 0 10px;
+      }
+      p {
+        font-family: Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: center;
+        letter-spacing: 0.7px;
+        line-height: 22px;
+        color: #333333;
+        margin-bottom: 40px;
+        padding: 0 30px;
+      }
+      &:nth-child(1),
+      &:nth-child(3),
+      &:nth-child(4),
+      &:nth-child(6) {
+        border-left: none;
+        border-right: none;
+      }
+      &:nth-child(1n+4) {
+        border-bottom: none;
+      }
+    }
+    .Clearfix {
+      clear: both;
+    }
+  }
+}

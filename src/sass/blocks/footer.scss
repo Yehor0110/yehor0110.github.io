@@ -1,0 +1,49 @@
+#main-footer {
+  position: relative;
+  .Footer-bgd {
+    width: 100%;
+    min-height: 400px;
+    background-image: url(../img/footerBgd.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    .Footer-overlay {
+      display: block;
+      width: 100%;
+      min-height: 400px;
+      padding: 0 150px;
+      background: -webkit-linear-gradient(left, rgba(9, 5, 47, 0.85), rgba(44, 26, 88, 0.85));
+      background: -o-linear-gradient(left, rgba(9, 5, 47, 0.85), rgba(44, 26, 88, 0.85));
+      background: linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(44, 26, 88, 0.85));
+    }
+    .Author {
+      float: right;
+      margin-top: 135px;
+      min-width: 300px;
+      text-align: center;
+      h3 {
+        font-size: 22px;
+        font-family: Roboto, sans-serif;
+        font-weight: 600;
+        line-height: 26px;
+        letter-spacing: 0.364px;
+        text-transform: uppercase;
+        color: white;
+        margin-bottom: 40px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        &:hover {
+          color: #fdbf22;
+        }
+      }
+      .Wrap-links {
+        margin: 30px 0;
+        a {
+          margin: 0 13px;
+        }
+      }
+    }
+  }
+}
