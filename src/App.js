@@ -4,6 +4,7 @@ import AboutSection from './components/AboutSection';
 import DescriptionSection from './components/DescriptionSection';
 import WorkSpaceSection from './components/WorkSpaceSection';
 import Footer from './components/Footer';
+import MobileMenu from './components/MobileMenu'
 import './styles/App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <DescriptionSection/>
         <WorkSpaceSection/>
         <Footer/>
+        <MobileMenu/>
       </div>
     );
   }
