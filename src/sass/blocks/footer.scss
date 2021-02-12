@@ -1,5 +1,6 @@
-#main-footer {
+#Main-footer {
   position: relative;
+  box-sizing: border-box;
   .Footer-bgd {
     width: 100%;
     min-height: 400px;
@@ -11,14 +12,13 @@
       display: block;
       width: 100%;
       min-height: 400px;
-      padding: 0 150px;
       background: -webkit-linear-gradient(left, rgba(9, 5, 47, 0.85), rgba(44, 26, 88, 0.85));
       background: -o-linear-gradient(left, rgba(9, 5, 47, 0.85), rgba(44, 26, 88, 0.85));
       background: linear-gradient(to right, rgba(9, 5, 47, 0.85), rgba(44, 26, 88, 0.85));
     }
     .Author {
-      float: right;
-      margin-top: 135px;
+      display: block;
+      padding-top: 135px;
       min-width: 300px;
       text-align: center;
       h3 {
@@ -42,6 +42,29 @@
         margin: 30px 0;
         a {
           margin: 0 13px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  #Main-footer {
+    .Footer-bgd {
+      .Footer-overlay {
+        padding: 0;
+      }
+      .Author {
+        text-align: center;
+        h3 {
+          font-size: 19px;
+          margin-bottom: 40px;
+        }
+        .Wrap-links {
+          margin: 30px 0;
+          a {
+            margin: 0 13px;
+          }
         }
       }
     }

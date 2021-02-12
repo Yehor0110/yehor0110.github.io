@@ -1,6 +1,8 @@
-#description {
-  margin: 80px 0;
+#Description {
   padding: 0 150px;
+  box-sizing: border-box;
+  max-width: 1180px;
+  margin: 80px auto 80px auto;
   .Image {
     display: inline-block;
     width: 40%;
@@ -28,5 +30,83 @@
     p {
       padding-bottom: 25px;
     } 
+  }
+}
+
+@media (max-width: 767px) {
+  #Description {
+    padding: 0;
+    min-width: 300px;
+    max-width: 80%;
+    margin: 80px auto 80px auto;
+    .Image {
+      display: block;
+      width: 60%;
+      margin: 0 auto;
+    }
+    .Content {
+      display: block;
+      width: 100%;
+      padding: 0 50px;
+      h2 {
+        text-align: center;
+        margin: 50px 0 25px 0;
+        font-size: 22px;
+      }
+      p {
+        padding-bottom: 25px;
+        font-size: 16px;
+      } 
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #Description {
+    padding: 0 50px;
+    max-width: 720px;
+    margin: 80px auto 80px auto;
+    .Image {
+      display: block;
+      width: 40%;
+      margin: 0 auto;
+    }
+    .Content {
+      display: block;
+      width: 100%;
+      padding: 0 50px;
+      h2 {
+        text-align: center;
+        margin: 50px 0;
+      }
+      p {
+        padding-bottom: 25px;
+      } 
+    }
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  #Description {
+    padding: 0 50px;
+    max-width: 720px;
+    margin: 80px auto 80px auto;
+    .Image {
+      display: block;
+      width: 40%;
+      margin: 0 auto;
+    }
+    .Content {
+      display: block;
+      width: 100%;
+      padding: 0 50px;
+      h2 {
+        text-align: center;
+        margin: 50px 0;
+      }
+      p {
+        padding-bottom: 25px;
+      } 
+    }
   }
 }

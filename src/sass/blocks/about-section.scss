@@ -5,6 +5,7 @@ section.About {
   background-position: center;
   min-height: 700px;
   width: 100%;
+  box-sizing: border-box;
 }
   
 .About {
@@ -67,6 +68,39 @@ section.About {
         &:active, &:hover {
           color: #46A3CC;
           border: 1px solid #46A3CC;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .About {
+    .About-bgd {
+      width: 100%;
+      .About-overlay {
+        width: 100%;
+        h1 {
+          text-align: center;
+          line-height: 45px;
+          font-size: 26px;
+          letter-spacing: 0.32px;
+          padding: 200px 50px 0 50px;
+          &::after {
+            margin: 30px auto;
+          }
+        }
+        p {
+          font-size: 16px;
+          padding: 0 50px;
+          line-height: 28px;
+          letter-spacing: 0.7px;
+          max-width: 780px;
+          box-sizing: content-box;
+        }
+        .Button-about {
+          font-size: 16px;
+          margin: 40px auto
         }
       }
     }

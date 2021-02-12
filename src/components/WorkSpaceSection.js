@@ -9,7 +9,7 @@ import icon6 from '../img/icons/6.png';
 class WorkSpaceSection extends React.Component {
     render () {
       return (
-        <section id="workspace">
+        <section id="Workspace">
           <h2>Lorem ipsum dolor sit amet</h2>
           <h4>Aperiam totam neque esse enim</h4>
           <div className="Services-block">

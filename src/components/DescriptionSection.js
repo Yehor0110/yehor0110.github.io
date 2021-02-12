@@ -4,7 +4,7 @@ import ourStoryLogo from '../img/ourStoryLogo.png';
 class DescriptionSection extends React.Component {
     render () {
       return (
-        <section id="description">
+        <section id="Description">
           <div className="Description-bgd">
             <div className="Description-overlay">
               <div className="Image">

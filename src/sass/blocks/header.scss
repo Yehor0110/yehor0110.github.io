@@ -4,7 +4,7 @@ header.Main {
   position: absolute;
   background-color: transparent;
   z-index: 999;
-  a[id="logo"] {
+  a[id="Logo"] {
     float: left;
     text-decoration: none;
     width: 100px;
@@ -41,5 +41,95 @@ header.Main {
         }
       }
     }
+  }
+}
+
+@media (max-width: 767px) {
+  header.Main {
+    a[id="Logo"] {
+      top: 20px;
+      left: 30px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  header.Main {
+    .Navigation {
+      display: none;
+      .Menu {
+        display: none;
+      }
+    }
+  }
+  .Mob-menu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 51px;
+    height: 70px;
+    margin: 6px 20px;
+  }
+  .Mob-menu span {
+    margin: 0 auto;
+    position: relative;
+    top: 30px;
+  }
+  .Mob-menu span:before, .Mob-menu span:after {
+    position: absolute;
+    content: '';
+  }
+  .Mob-menu span, .Mob-menu span:before, .Mob-menu span:after {
+    width: 39px;
+    height: 5px;
+    background-color: white;
+    display: block;
+  }
+  .Mob-menu span:before {
+    margin-top: -11px;
+  }
+  .Mob-menu span:after {
+    margin-top: 11px;
+  }
+  .Example5 span {
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+  .Example5:hover span {
+    background-color: transparent;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+  .Example5 span:before {
+    -webkit-transition-property: margin, -webkit-transform;
+    transition-property: margin, transform;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-delay: 0.2s, 0s;
+    transition-delay: 0.2s, 0s;
+  }
+  .Example5:hover span:before {
+    margin-top: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition-delay: 0s, 0.2s;
+    transition-delay: 0s, 0.2s;
+  }
+  .Example5 span:after {
+    -webkit-transition-property: margin, -webkit-transform;
+    transition-property: margin, transform;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-delay: 0.2s, 0s;
+    transition-delay: 0.2s, 0s;
+  }
+  .Example5:hover span:after {
+    margin-top: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition-delay: 0s, 0.2s;
+    transition-delay: 0s, 0.2s;
   }
 }

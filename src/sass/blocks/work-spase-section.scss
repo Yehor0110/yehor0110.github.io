@@ -1,7 +1,8 @@
-#workspace {
+#Workspace {
   display: block;
   padding: 0 100px;
   margin: 100px auto;
+  box-sizing: border-box;
   h2 {
     text-align: center;
     line-height: 40px;
@@ -99,4 +100,180 @@
       clear: both;
     }
   }
+}
+
+
+@media (max-width: 767px) {
+	#Workspace {
+		padding: 0 50px;
+		h2 {
+			font-size: 22px;
+			line-height: 32px;
+      &::after {
+        margin: 15px auto;
+      }
+		}
+    h4 {
+      font-size: 18px;
+      margin-bottom: 50px;
+    }
+		p {
+			font-size: 16px;
+		}
+		.Services-block {
+			max-width: 100%;
+			.Service {
+				max-width: 320px;
+        float: none;
+				display: block;
+				width: auto;
+				margin: 0 auto 50px auto;
+				border: none;
+				border-bottom: 1px solid #EFEFEF;
+				outline: none;
+				background-color:  rgba(253, 191, 34, 0.25);
+				border-radius: 50px;
+				-webkit-touch-callout: none; /* iOS Safari */
+				-webkit-user-select: none;   /* Chrome/Safari/Opera */
+				-khtml-user-select: none;    /* Konqueror */
+				-moz-user-select: none;      /* Firefox */
+				-ms-user-select: none;       /* Internet Explorer/Edge */
+				user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+				padding: 30px;
+				&:hover, &:active {
+					background-color:  rgba(253, 191, 34, 0.45);
+				}
+				h3 {
+					font-size: 19px;
+					letter-spacing: 0.7px;
+					line-height: 32px;
+				}
+				p {
+					font-size: 16px;
+					letter-spacing: 0.7px;
+					line-height: 32px;
+					padding: 0;
+				}
+				&:nth-child(1n+4) {
+					border-bottom: 1px solid #EFEFEF;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #Workspace {
+		padding: 0 50px;
+		h2 {
+			font-size: 24px;
+			line-height: 32px;
+      &::after {
+        margin: 30px auto;
+      }
+		}
+    h4 {
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+		p {
+			font-size: 18px;
+		}
+		.Services-block {
+			max-width: 100%;
+			.Service {
+				max-width: 720px;
+        float: none;
+				display: block;
+				width: auto;
+				margin: 0 auto 50px auto;
+				border: none;
+				border-bottom: 1px solid #EFEFEF;
+				outline: none;
+				background-color:  rgba(253, 191, 34, 0.25);
+				border-radius: 50px;
+				-webkit-touch-callout: none; /* iOS Safari */
+				-webkit-user-select: none;   /* Chrome/Safari/Opera */
+				-khtml-user-select: none;    /* Konqueror */
+				-moz-user-select: none;      /* Firefox */
+				-ms-user-select: none;       /* Internet Explorer/Edge */
+				user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+				padding: 30px;
+				&:hover, &:active {
+					background-color:  rgba(253, 191, 34, 0.45);
+				}
+				h3 {
+					font-size: 21px;
+					letter-spacing: 0.7px;
+					line-height: 32px;
+				}
+				p {
+					font-size: 18px;
+					letter-spacing: 0.7px;
+					line-height: 32px;
+					padding: 0;
+				}
+				&:nth-child(1n+4) {
+					border-bottom: 1px solid #EFEFEF;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+	#Workspace {
+		padding: 0 50px;
+		h2 {
+			font-size: 28px;
+		}
+		p {
+			font-size: 19px;
+		}
+    h4 {
+      margin-bottom: 50px;
+    }
+		.Services-block {
+			max-width: 100%;
+			.Service {
+				float: none;
+				display: block;
+				max-width: 720px;
+				width: auto;
+				margin: 0 auto 50px auto;
+				border: none;
+				border-bottom: 1px solid #EFEFEF;
+				outline: none;
+				background-color:  rgba(253, 191, 34, 0.25);
+				border-radius: 50px;
+				-webkit-touch-callout: none; /* iOS Safari */
+				-webkit-user-select: none;   /* Chrome/Safari/Opera */
+				-khtml-user-select: none;    /* Konqueror */
+				-moz-user-select: none;      /* Firefox */
+				-ms-user-select: none;       /* Internet Explorer/Edge */
+				user-select: none;           /* Non-prefixed version, currently not supported by any browser */
+				padding: 30px;
+				&:hover, &:active {
+					background-color:  rgba(253, 191, 34, 0.45);
+				}
+				img {
+				min-height: 80px;
+				}
+				h3 {
+					font-size: 22px;
+					letter-spacing: 0.7px;
+					line-height: 52px;
+				}
+				p {
+					font-size: 19px;
+					letter-spacing: 0.7px;
+					line-height: 32px;
+					padding: 0;
+				}
+				&:nth-child(1n+4) {
+					border-bottom: 1px solid #EFEFEF;
+				}
+			}
+		}
+	}
 }

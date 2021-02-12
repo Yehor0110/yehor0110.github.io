@@ -3,7 +3,7 @@ import React from 'react';
 class AboutSection extends React.Component {
     render () {
       return (
-        <section className="About" id="progect-name">
+        <section className="About" id="Progect-name">
           <div className="About-bgd">
             <div className="About-overlay">
               <h1>React Internship</h1>
