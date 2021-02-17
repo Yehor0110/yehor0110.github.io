@@ -7,9 +7,29 @@ section.About {
   width: 100%;
   box-sizing: border-box;
 }
+
+button {
+  position:absolute;
+  top: 100px;
+  height: 40px;
+  width: 100%;
+  background-color: transparent;
+}
+.warning {
+  position:absolute;
+  top: 100px;
+  background-color: red;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  font-size: 14pt;
+  color: white;
+}
   
 .About {
   position: relative;
+  
   .About-bgd {
     width: 100%;
     min-height: 700px;
