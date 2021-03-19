@@ -68,7 +68,6 @@ function Text() {
 // }
 
 class AboutSection extends React.Component {
-  // 
     render () {
       return (
         <section className="About" id="Progect-name">
@@ -84,4 +83,4 @@ class AboutSection extends React.Component {
     }
   }
 
-  export default AboutSection
+export default AboutSection

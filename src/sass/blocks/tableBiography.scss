@@ -1,0 +1,72 @@
+section#biography {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0;
+    text-align: center;
+    h2 {
+        margin-bottom: 80px;
+        color: #555963;
+    }
+    button {
+        position: relative;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        max-width: 300px;
+        text-align: center;
+        display: block;
+        margin: 33px auto;
+        padding: 0;
+        border: 1px solid #fdbf22;
+        color: #fdbf22;
+        font-size: 17px;
+        text-decoration: none;
+        border-radius: 25px;
+        &:active, &:hover {
+            color: #46A3CC;
+            border: 1px solid #46A3CC;
+        }
+    }  
+    input[type=text] {
+        height: 50px;
+        padding: 10px 0;
+        outline: none;
+        margin: 50px 100px 30px 0;
+    }
+    input#inputEvent {
+        margin-right: 0px;
+    }
+    form {
+        padding: 50px 0;
+    }
+    table {
+        margin: 0 auto;
+        padding: 0 50px;
+        border-spacing: 0;
+        color: #555963;
+        text-align: left;
+        thead {
+            tr {
+            height: 50px;
+                th {
+                    border-bottom: 1px solid #fdbf22;
+                    padding: 0 50px 0 0;
+                }
+                th:hover {
+                    cursor: pointer;
+                    color: #46A3CC;
+                }
+            }
+        }
+        tbody {
+            tr {
+            height: 50px;
+                th {
+                    padding: 0 50px 0 0;
+                }
+            }
+        }
+    }
+}
