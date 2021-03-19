@@ -18,54 +18,54 @@ function Text() {
   
 }
 
-function Button() {
-  let showButton = 'show';
-  const errorMassage = "ошибочка вышла";
+// function Button() {
+//   let showButton = 'show';
+//   const errorMassage = "ошибочка вышла";
 
-  if(showButton === 'show') {
-    return <a href="#main-footer" className="Button-about show">{showButton}</a>
-  } else {
-    return <a href="#main-footer" className="Button-about error">{errorMassage}</a>
-  }
+//   if(showButton === 'show') {
+//     return <a href="#main-footer" className="Button-about show">{showButton}</a>
+//   } else {
+//     return <a href="#main-footer" className="Button-about error">{errorMassage}</a>
+//   }
 
-}
+// }
 
-function WarningBanner(props) {
-  if (!props.warn) {
-    return null;
-  }
+// function WarningBanner(props) {
+//   if (!props.warn) {
+//     return null;
+//   }
 
-  return (
-    <div className="warning">
-      Warning!
-    </div>
-  );
-}
+//   return (
+//     <div className="warning">
+//       Warning!
+//     </div>
+//   );
+// }
 
-class Page extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {showWarning: false}
-    this.handleToggleClick = this.handleToggleClick.bind(this);
-  }
+// class Page extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {showWarning: false}
+//     this.handleToggleClick = this.handleToggleClick.bind(this);
+//   }
 
-  handleToggleClick() {
-    this.setState(prevState => ({
-      showWarning: !prevState.showWarning
-    }));
-  }
+//   handleToggleClick() {
+//     this.setState(prevState => ({
+//       showWarning: !prevState.showWarning
+//     }));
+//   }
   
-  render() {
-    return (
-      <div>
-        <WarningBanner warn={this.state.showWarning} />
-        <button onClick={this.handleToggleClick}>
-          {this.state.showWarning ? 'Hide' : 'Show'}
-        </button>
-      </div>
-    );
-  }
-}
+//   render() {
+//     return (
+//       <div>
+//         <WarningBanner warn={this.state.showWarning} />
+//         <button onClick={this.handleToggleClick}>
+//           {this.state.showWarning ? 'Hide' : 'Show'}
+//         </button>
+//       </div>
+//     );
+//   }
+// }
 
 class AboutSection extends React.Component {
   // 
@@ -75,10 +75,8 @@ class AboutSection extends React.Component {
         
           <div className="About-bgd">
             <div className="About-overlay">
-            <Page></Page>
               <Welcome></Welcome>
               <Text></Text>
-              <Button></Button>
             </div>
           </div>	
         </section>
